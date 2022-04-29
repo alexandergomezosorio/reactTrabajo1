@@ -11,3 +11,134 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  background-color: #034f84;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 33.34% 33.34% 33.34%;
+  height: 15vh;
+  background-color: #92a8d1;
+
+}
+a{
+  font-family: 'Franklin Gothic Medium',
+  'Arial Narrow',
+  Arial,
+  sans-serif;
+  font-size: larger;
+  color: #ffef96;
+  margin: 250px;
+  position: relative;                                                 
+  top: 35%;   
+  text-decoration: none;
+  background-color: #034f84;
+  padding: 10px;
+  border-radius: 15px;
+}
+a:hover{
+  background-color: #70bdf2;
+  color: #034f84;
+  border-radius: 15px;
+  box-shadow:0 0 10px #034f84;
+}
+.enlacef{
+  margin-left: 290px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 33.34% 33.34% 33.34%;
+  grid-template-rows: 20% 60% 20%;
+  height: 70vh;
+}
+
+.img1 {
+  margin-left: 30px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 92%;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow:4px 4px 3px 3px #70bdf2;
+}
+
+.img2 {
+  margin-left: 30px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  height: 92%;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow:4px 4px 3px 3px #70bdf2;
+}
+
+.img3 {
+  margin-left: 30px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  height: 92%;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow:4px 4px 3px 3px #70bdf2;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  height: 15vh;
+  background-color: #92a8d1;
+}
+@media screen and (max-width: 368px) {
+
+  .section__title,
+  .section__subtitle {
+    font-size: medium;
+  }
+
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .income__container {
+    grid-template-columns: max-content;
+    justify-content: center;
+
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .box {
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width: 576px) {
+
+  .income__container,
+  .balance__container,
+  .content {
+    justify-content: center;
+  }
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container,
+  .balance__contain {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+}
+
+
